@@ -3,5 +3,5 @@ from . import views
 
 urlpatterns = [
     #Always end an endpoint with a / 
-    path('laptops/', views.getlaptops)
+    path('laptops/', views.getLaptops)
 ]
